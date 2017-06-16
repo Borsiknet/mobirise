@@ -200,7 +200,7 @@
           "title1": "Центр Израиля",
           "subtitle1": "Иерусалим, Тель Авив, и другие места в центре Израиля",
           "caption1": "Посетите центр! 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "button1": "<a data-app-btn=\"true\" href=\"page1.html\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">ПОДРОБНЕЕ</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"jerusalem.html\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">ПОДРОБНЕЕ</a>",
           "media2": {
             "image": {
               "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
@@ -345,7 +345,7 @@
           "title1": "Bootstrap 4",
           "subtitle1": "Bootstrap 4 has been noted",
           "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"transfers.html\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media2": {
             "image": {
               "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
