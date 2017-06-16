@@ -159,7 +159,7 @@
           },
           "title": "Travel Nation Israel",
           "text": "<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"index.html#features3-b\" data-toolbar=\"-mbrBtnMove\">ЭКСКУРСИИ</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"index.html#features3-b\" data-toolbar=\"-mbrBtnMove\">ТРАНСФЕРЫ</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"index.html#features3-b\" data-toolbar=\"-mbrBtnMove\">ЭКСКУРСИИ</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"index.html#features3-v\" data-toolbar=\"-mbrBtnMove\">ТРАНСФЕРЫ</a>"
         },
         {
           "_tags": [
