@@ -17,12 +17,12 @@
         "textFont": "Raleway",
         "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false,
+        "isScrollToTopButton": true,
         "isRtl": false
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 35,
+    "uniqCompNum": 36,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/backup-of-logo-travel2-2-1-128x128-1.png",
     "noImageResize": ""
@@ -45,8 +45,8 @@
             },
             ".navbar-caption": {
               "color": "#ffffff",
-              "font-family": "'Indie Flower', cursive",
-              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
               "font-size": "22px"
             },
             ".navbar-toggler": {
@@ -114,10 +114,13 @@
           },
           "logo": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/backup-of-logo-travel2-2-128x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -126,7 +129,6 @@
               "family": "MobiriseIcons",
               "link": "index.html",
               "size": 0,
-              "active": true,
               "newWindow": false,
               "color": "#faaf40"
             }
@@ -159,7 +161,7 @@
           },
           "title": "Travel Nation Israel",
           "text": "<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"index.html#features3-b\" data-toolbar=\"-mbrBtnMove\">ЭКСКУРСИИ</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"index.html#features3-v\" data-toolbar=\"-mbrBtnMove\">ТРАНСФЕРЫ</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"index.html#features3-b\" data-toolbar=\"-mbrBtnMove\">ЭКСКУРСИИ</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"index.html#features3-v\" data-toolbar=\"-mbrBtnMove\">ТРАНСФЕРЫ</a> "
         },
         {
           "_tags": [
@@ -522,6 +524,63 @@
             }
           },
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\">Contact us</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
+          "_anchor": "form1-z",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "CONTACT FORM",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "form": {
+            "action": "rainesh2002@hotmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
         }
       ]
     },
@@ -737,13 +796,6 @@
             "Theme"
           ],
           "_name": "content1",
-          "_anchor": "content1-e",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<h4>Важная информация!</h4><p>Все экскурсии выполняются на исправных и новых транспортных средствах оборудованных кондиционером и аудио/видео системой для предачи информации во время путешествия. Водитель и гид имеют соответствующие лицензии от соответствующих министерств и отобраны специально для этой работы. Все полнодневные групповые экскурсии включают в себя одно питание по программе. Время в пути до первого пункта экскурсии 4 часа. Дорога туда и обратно включает в себя одну техническую остановку на 20 минут. Если ваше пребывание в гостинице включает в себя завтрак, не забудьте заказать его \"в дорогу\" накануне выезда. Рекоммендуем иметь удобную для ходьбы обувь, куртку зимой (вечером в Иерусалиме очень холодно!), и воду для питья. Посещение религиозных мест не допускаеться в шортах, майках, топиках, коротких юбках и т.п.</p>",
           "_styles": {
             "P": {
               "text-align": "left"
@@ -751,13 +803,25 @@
             "H4": {
               "text-align": "center"
             }
-          }
+          },
+          "_anchor": "content1-e",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<h4>Важная информация!</h4><p>Все экскурсии выполняются на исправных и новых транспортных средствах оборудованных кондиционером и аудио/видео системой для предачи информации во время путешествия. Водитель и гид имеют соответствующие лицензии от соответствующих министерств и отобраны специально для этой работы. Все полнодневные групповые экскурсии включают в себя одно питание по программе. Время в пути до первого пункта экскурсии 4 часа. Дорога туда и обратно включает в себя одну техническую остановку на 20 минут. Если ваше пребывание в гостинице включает в себя завтрак, не забудьте заказать его \"в дорогу\" накануне выезда. Рекоммендуем иметь удобную для ходьбы обувь, куртку зимой (вечером в Иерусалиме очень холодно!), и воду для питья. Посещение религиозных мест не допускаеться в шортах, майках, топиках, коротких юбках и т.п.</p>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
           "_anchor": "form1-d",
           "_params": {
             "labelsColor": "#232323",
@@ -803,12 +867,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Отправить</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Отправить</a>"
         },
         {
           "_tags": [
@@ -863,6 +922,10 @@
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
+            "count": 3,
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
@@ -872,11 +935,7 @@
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
             "showTitle": true,
-            "showSubtitle": true,
-            "count": 3,
-            "showImages": true,
-            "showName": true,
-            "showBio": true
+            "showSubtitle": true
           },
           "title": "Что говорят об этой экскурсии её участники?",
           "subtitle": "Прочитайте что пишут о наших экскурсиях уже побывавшие на них участники!"
@@ -1041,6 +1100,11 @@
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
           "_anchor": "form1-r",
           "_params": {
             "labelsColor": "#232323",
@@ -1086,12 +1150,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
         }
       ]
     }
